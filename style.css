@@ -95,3 +95,22 @@ p a:hover {
   text-align: center;
   margin-bottom: 20px;
 }
+
+/* user_page e admin_page */
+h1 {
+  font-size: 50px;
+}
+
+span {
+  color: #7494ec;
+}
+
+.box p {
+  font-size: 22px;
+}
+
+.box button {
+  display: block;
+  width: 300px;
+  margin: 0 auto;
+}

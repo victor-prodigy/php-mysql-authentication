@@ -28,3 +28,5 @@
 - colocando função isActiveForm para definir qual formulário está ativo https://youtu.be/LiomRvK7AM8?t=1957
 
 - criando paginas para usuarios e administrador(es) admin_page.php & user_page.php https://youtu.be/LiomRvK7AM8?t=2085
+
+- logout.php logica para o usuário sair da sessão da conta https://youtu.be/LiomRvK7AM8?t=2386

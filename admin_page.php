@@ -2,6 +2,7 @@
 
 session_start();
 // verifica se o usuário está logado, se não estiver redireciona para index
+// TODO: verificar se o usuário é admin tbm
 if (!isset($_SESSION['email'])) {
   header("Location: index.php");
   exit();
@@ -20,12 +21,12 @@ if (!isset($_SESSION['email'])) {
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body style="background-color: #fff;">
   <div class="box">
-    <h1>Welcome, <span></span></h1>
+    <h1>Welcome, <span><?= $_SESSION['name']; ?></span></h1>
     <p>This is an <span>admin</span> page</p>
 
-    <button>Logout</button>
+    <button onclick="window.location.href = 'logout.php'">Logout</button>
   </div>
 </body>
 
