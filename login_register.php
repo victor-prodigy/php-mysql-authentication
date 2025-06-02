@@ -12,6 +12,7 @@ if (isset($_POST['register'])) { // name do button
   $role = $_POST['role'];
 
   $checkEmail = $conn->query("SELECT email FROM users WHERE email = '$email'");
+  
   if ($checkEmail->num_rows > 0) {
     $_SESSION['register_error'] = "Email is already registered!";
     $_SESSION['active_form'] = "register";
