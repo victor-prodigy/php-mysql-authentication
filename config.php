@@ -1,6 +1,5 @@
-<!-- CONEXÃO COM O BANCO DE DADOS -->
 <?php
-
+// CONEXAO COM O BANCO DE DADOS
 $host = "localhost";
 $user = "root";
 $password = ""; // mysql password
